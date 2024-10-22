@@ -1,0 +1,13 @@
+streamlit
+pandas
+numpy
+spacy
+nltk
+textblob
+flashtext
+folium
+streamlit-folium
+geopy
+Flask
+SpeechRecognition
+streamlit-webrtc

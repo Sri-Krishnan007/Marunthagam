@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marunthagam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .popup-message {
+            display: none;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: #f8d7da;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        /* Colorful Header */
+        header {
+            background-color: #4caf50; /* Green */
+            color: white;
+            border-bottom: 4px solid #388e3c;
+        }
+        h1 {
+            font-family: 'Arial', sans-serif;
+            font-size: 2.5rem;
+        }
+        /* Feature Cards */
+        .feature-card {
+            border: none;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            color: white;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.2);
+        }
+        .feature-card-1 {
+            background-color: #ff5722; /* Deep Orange */
+        }
+        .feature-card-2 {
+            background-color: #03a9f4; /* Light Blue */
+        }
+        .feature-card-3 {
+            background-color: #ffeb3b; /* Yellow */
+            color: black;
+        }
+        /* Body and Footer */
+        body {
+            background-color: #f5f5f5;
+        }
+        footer {
+            background-color: #4caf50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="d-flex justify-content-between align-items-center p-3">
+        <img class="myimg" src="{{ url_for('static', filename='images/mlogo.png') }}" alt="Logo" style="width: 60px;">
+        <h1>Marunthagam</h1>
+        <div>
+            <a href="/login" class="btn btn-light">Login</a>
+            <a href="/signup" class="btn btn-warning">Signup</a>
+        </div>
+    </header>
+
+    <!-- Body -->
+    <div class="container my-5">
+        <section>
+            <h2>About Marunthagam</h2>
+            <p>Discover our assistance in disease prediction, symptom analysis, and medicine recommendations.</p>
+        </section>
+
+        <section class="mt-4">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="feature-card feature-card-1">
+                        <h4>Disease Prediction</h4>
+                        <p>Utilize advanced AI techniques to predict potential diseases based on your symptoms.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card feature-card-2">
+                        <h4>Symptom Analysis</h4>
+                        <p>Analyze your symptoms using our cutting-edge system for accurate diagnosis.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-card feature-card-3">
+                        <h4>Medicine Recommendations</h4>
+                        <p>Get personalized medicine suggestions based on your health profile and symptoms.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+<footer class="bg-black text-white p-3 text-center mt-auto" style="position: fixed; width: 100%; bottom: 0;">
+    <p>Contact us: srikrish2705guru@gmail.com</p>
+    <p>&copy; 2024 Marunthagam</p>
+</footer>
+
+
+    <!-- Popup message -->
+    <div id="popup" class="popup-message">
+        <p>If you want to discover our assistance, sign up. If you're already a user, log in.</p>
+        <button class="btn btn-danger" onclick="document.getElementById('popup').style.display='none'">Close</button>
+    </div>
+
+    <script>
+        // Show popup after 10 seconds
+        setTimeout(function() {
+            document.getElementById('popup').style.display = 'block';
+        }, 10000);
+    </script>
+</body>
+</html>

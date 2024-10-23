@@ -30,10 +30,7 @@ class User(db.Model):
     password = db.Column(db.String(150), nullable=False)
     is_verified = db.Column(db.Boolean, default=False)
     verification_code = db.Column(db.String(6), nullable=True)
-<<<<<<< HEAD
 
-=======
->>>>>>> be817ffd8d3067786987d0c564003564ec2afe3a
 def run_streamlit():
     # Run Streamlit app as a separate process
     subprocess.run(["streamlit", "run", "chatbot.py"])
@@ -180,11 +177,8 @@ def verify_otp():
 
 
 
-<<<<<<< HEAD
-=======
 
 
->>>>>>> be817ffd8d3067786987d0c564003564ec2afe3a
 # Route for logout (already included earlier)
 @app.route('/logout')
 def logout():

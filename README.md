@@ -69,21 +69,25 @@ cd Marunthagam-Medicine-Chatbot
 Run the Streamlit app:
 streamlit run app.py
 Access the app locally at http://localhost:8501 🌐.
-🌍 Deployment Instructions (Netlify)
-Deploy using Streamlit Sharing or Netlify.
-Configure netlify.toml for automated builds and deployments.
-Ensure environment variables like API keys are set in the Netlify dashboard.
-💼 Market Opportunity
+
+
+# 💼 Market Opportunity
+
 Healthcare Accessibility: 🌍 Targets rural areas with low doctor-patient ratios (only 18.9% population access to doctors).
 Doctor Shortage: 🚑 Addresses the 79.9% shortage of specialist doctors, making expert advice more accessible.
 🔑 Unique Selling Proposition (USP)
 👩‍⚕ 1:1 Doctor Experience: Provides personalized, accurate healthcare advice akin to a doctor’s consultation.
 🩺 Holistic Health Management: Offers insights into diets, workouts, precautions, and medications alongside medical consultations.
-🌱 Social Impact
+
+# 🌱 Social Impact
+
 Life-Saving Potential: By automating medical advice and providing early diagnoses, Marunthagam could save up to 30,000 lives annually. 🚑❤
 Error Reduction: Aims to reduce healthcare-associated errors like medication mistakes by 97%, improving patient outcomes. 📉💊
-🌟 Inclusivity Features
+
+# 🌟 Inclusivity Features
+
 🗣 Voice Input for Illiterate Users: Ensures even non-literate individuals can access medical advice.
+
 ⚖ License
 This project is licensed under the MIT License. 📄
 

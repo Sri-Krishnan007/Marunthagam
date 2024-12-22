@@ -1,9 +1,11 @@
-🌟 Marunthagam - The Medicine Chatbot 💊🤖
+# 🌟 Marunthagam - The Medicine Chatbot 💊🤖
 
-🚀 Project Overview
+# 🚀 Project Overview
+
 Marunthagam is an intelligent, AI-powered chatbot that acts as a virtual healthcare assistant, capable of answering medical queries, diagnosing symptoms, recommending treatments, and suggesting nearby doctors. By leveraging Machine Learning (ML) and Natural Language Processing (NLP), the chatbot helps make healthcare more accessible, especially in rural areas. 🌍💡
 
-🩺 Key Features
+# 🩺 Key Features
+
 💬 Medical Query Processing: Understands and processes user queries efficiently.
 🧠 Symptom Diagnosis: Predicts potential diseases based on symptoms.
 💊 Treatment Suggestions: Recommends medications and treatments.
@@ -13,15 +15,18 @@ Marunthagam is an intelligent, AI-powered chatbot that acts as a virtual healthc
 ⚙ Technology Stack
 💻 Languages & Libraries
 Python 3.12.7 🐍: Core programming language.
-ML Libraries:
+
+# ML Libraries:
+
 scikit-learn for various machine learning models (e.g., decision trees, logistic regression, GBM).
 NumPy & Pandas for data processing.
 SpaCy for NLP tasks (tokenization, lemmatization, etc.).
 Frontend: Streamlit for building the user interface.
-☁ Deployment
+
+# ☁ Deployment
 Streamlit: For easy web-based deployment of the chatbot.
-Netlify: 🌐 Deployed to host the application online.
-🧑‍💻 Developer Credits
+
+# 🧑‍💻 Developer Credits
  Developers: Gokulanand M , Sri Krishnan G
 
 💡 Collaborators: Feel free to reach out for questions, feedback, or contributions.
@@ -38,8 +43,11 @@ Symptom Severity Dataset: 🚨 Severity mapping for symptoms.
 Symptoms-to-Disease Dataset: 🩺 Links symptoms to diseases for accurate prediction.
 Medicines Dataset: 💊 Helps recommend medicines based on diagnosed diseases.
 Health & Wellness Dataset: 🥗🏋‍♀ Includes diet plans, workout recommendations, and precautions.
-🛠 Installation Guide
+
+# 🛠 Installation Guide
+
 🔧 Prerequisites
+
 Python 3.12.7 or higher.
 Install required libraries:
 pip install -r requirements.txt
@@ -52,7 +60,8 @@ pandas
 matplotlib
 SpaCy installation and model download:
 python -m spacy download en_core_web_sm
-▶ Running the Application
+
+# ▶ Running the Application
 Clone the repository:
 git clonehttps://github.com/Sri-Krishnan007/Marunthagam.git
 Navigate to the project directory:
@@ -78,13 +87,13 @@ Error Reduction: Aims to reduce healthcare-associated errors like medication mis
 ⚖ License
 This project is licensed under the MIT License. 📄
 
-🚀 Future Enhancements
+# 🚀 Future Enhancements
 🌍 Regional Language Support: Expanding voice input capabilities to multiple regional languages.
 🚑 Emergency Response Feature: A critical-care mode for faster assistance during emergencies.
 🤝 Contributing
 Feel free to fork this repository and submit pull requests for improvements. Your contributions are welcomed! 🌟
 
-📧 Contact
+# 📧 Contact
 For queries or feedback, reach out to the main developers:
 
 Gokulanand M
